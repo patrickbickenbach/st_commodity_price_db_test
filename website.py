@@ -16,10 +16,10 @@ titles = [
 ]
 
 dbs = [
-    '/db/db_silicone_dmc.csv',
-    '/db/db_metall_silicon.csv',
-    '/db/db_ferrosilicon.csv',
-    '/db/db_polysilicon.csv',
+    'https://github.com/patrickbickenbach/st_commodity_price_db_test/tree/main/db/db_silicone_dmc.csv',
+    'https://github.com/patrickbickenbach/st_commodity_price_db_test/tree/main/db/db_metall_silicon.csv',
+    'https://github.com/patrickbickenbach/st_commodity_price_db_test/tree/main/db/db_ferrosilicon.csv',
+    'https://github.com/patrickbickenbach/st_commodity_price_db_test/tree/main/db/db_polysilicon.csv',
 ]
 
 df = pd.DataFrame(dbs,titles)
