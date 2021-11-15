@@ -7,8 +7,6 @@ from matplotlib import rcParams
 
 rcParams['font.family'] = 'monospace'
 
-#st.set_option('deprecation.showPyplotGlobalUse', False)
-
 
 titles = [
     'Silicone DMC Price Chart',
@@ -18,10 +16,10 @@ titles = [
 ]
 
 dbs = [
-    'C:/Users/Patrick/Desktop/st_commodity_price_db_test/db/db_silicone_dmc.csv',
-    'C:/Users/Patrick/Desktop/st_commodity_price_db_test/db/db_metall_silicon.csv',
-    'C:/Users/Patrick/Desktop/st_commodity_price_db_test/db/db_ferrosilicon.csv',
-    'C:/Users/Patrick/Desktop/st_commodity_price_db_test/db/db_polysilicon.csv',
+    '/db/db_silicone_dmc.csv',
+    '/db/db_metall_silicon.csv',
+    '/db/db_ferrosilicon.csv',
+    '/db/db_polysilicon.csv',
 ]
 
 df = pd.DataFrame(dbs,titles)
